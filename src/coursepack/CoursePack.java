@@ -44,7 +44,7 @@ public class CoursePack {
             System.out.print("Are finished with the subject? (Y/N) ");
             char response2 = in.nextLine().charAt(0);
             if (response2 == 'Y') {
-                System.out.println("You finished " + subjectsList.finishedSubject().getDescription()Y);
+                System.out.println("You finished " + subjectsList.finishedSubject().getDescription());
             }
             
             System.out.print("Do you want to quit the applicaton? (Y/N) ");
